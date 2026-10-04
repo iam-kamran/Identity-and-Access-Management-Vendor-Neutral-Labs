@@ -1,5 +1,4 @@
-Identity and Access Management (IAM) Vendor-Neutral Labs
-https://img.shields.io/badge/IAM-Vendor%20Neutral-blue]() https://img.shields.io/badge/Security-Identity-green]() [ps://img.shields.io/badge/Hands--On-Labs-orange
+Identity and Access Management (IAM) Vendor-Neutral Labs :
 
 A comprehensive collection of vendor-neutral Identity and Access Management (IAM) learning resources, hands-on labs, architecture guides, interview preparation materials, security operations runbooks, and modern identity engineering scenarios.
 
