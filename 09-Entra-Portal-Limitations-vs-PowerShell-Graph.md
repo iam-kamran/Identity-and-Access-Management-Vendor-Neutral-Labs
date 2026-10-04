@@ -3,7 +3,6 @@
 ### A living reference document for identity administrators
 
 **Maintainer:** Kamran Arif  
-**GitHub:** https://github.com/ds-kamran/ipl-azure-entra-labs  
 **Last updated:** 2026-05-30  
 **Update frequency:** Weekly — as new limitations are discovered  
 
