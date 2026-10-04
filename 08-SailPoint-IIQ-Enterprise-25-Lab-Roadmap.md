@@ -8,6 +8,7 @@ current IIQ 8.x environments\
 **Goal:** Build real enterprise IGA engineering skill: identity data,
 application onboarding, correlation, provisioning, JML, RBAC,
 governance, SOD, certifications, troubleshooting and architecture.
+**Author:** : https://www.linkedin.com/in/karifa
 
 ------------------------------------------------------------------------
 
