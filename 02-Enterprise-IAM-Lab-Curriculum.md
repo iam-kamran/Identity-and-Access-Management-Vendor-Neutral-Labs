@@ -1,3 +1,26 @@
+# Enterprise IAM Lab Curriculum — Human + AI Workload Identity
+
+## End-to-End Hands-On Curriculum
+### Entra ID · IGA · Okta · SailPoint · CyberArk · Delinea · Multi-Cloud · AI Identity
+
+**Author:** Kamran Arif  
+**Target role:** IAM Engineer — AI Workload Identity & Traditional IAM  
+**Source last updated:** 2026-07-02
+
+---
+
+## Document Purpose
+
+This is the consolidated master curriculum. The source material originally contained three overlapping documents:
+
+1. **Phase 1 — Human Identity Foundation:** Labs 01–08
+2. **Phase 2 — Identity Governance & Administration:** Labs 09–13
+3. **Enterprise IAM / AI Identity roadmap:** Phases 3–9
+
+The content is now presented as **one continuous curriculum**, with one canonical roadmap and phase-by-phase lab sections. The original lab content, terminology, examples, commands, diagrams, and conceptual material are retained rather than rewritten into new material.
+
+---
+
 # Enterprise IAM Lab Plan — Human + AI Workload Identity
 ## End-to-End Hands-On Curriculum
 ### Entra ID · SailPoint · Okta · CyberArk · Delinea · AI Identity
@@ -80,36 +103,51 @@ graph TD
 
 ---
 
-## Lab curriculum — complete map
+---
 
-### Phase 1 — Human Identity Foundation (Labs 01–08)
-Already completed. Reference: Phase1_Learning_Reference.md
+## Curriculum Roadmap
 
-### Phase 2 — Identity Governance (Labs 09–13)
-Already completed. Reference: Phase2_IGA_Labs.md
+| Phase | Labs | Focus |
+|---|---:|---|
+| Phase 1 | 01–08 | Human Identity Foundation |
+| Phase 2 | 09–13 | Identity Governance / IGA |
+| Phase 3 | 14–18 | Authentication & Zero Trust |
+| Phase 4 | 19–26 | Workload & AI Identity |
+| Phase 5 | 27–30 | Multi-Cloud IAM |
+| Phase 6 | 31–34 | Privileged Access Management (PAM) |
+| Phase 7 | 35–38 | Detection & Audit |
+| Phase 8 | 39–44 | Okta |
+| Phase 9 | 45–50 | SailPoint |
 
-### Phase 3 — Authentication & Zero Trust (Labs 14–18)
-Conditional Access, MFA, Named Locations, Authentication Strengths
+### Detailed labs currently present in this consolidated source
 
-### Phase 4 — Workload & AI Identity (Labs 19–26)
-Service Principals, Managed Identities, Workload Federation, AI Agents
+**Phase 1 — Human Identity Foundation**
+- No detailed lab headings found in the source section.
 
-### Phase 5 — Multi-Cloud IAM (Labs 27–30)
-AWS IAM, GCP IAM, Cross-cloud RBAC, ABAC
+**Phase 2 — Identity Governance**
+- No detailed lab headings found in the source section.
 
-### Phase 6 — PAM (Labs 31–34)
-CyberArk, Delinea, Session Recording, Secret Rotation
+**Phase 3–9 — Enterprise IAM / AI Identity**
+- Lab 14 — Conditional Access Foundations
+- Lab 15 — Authentication Strengths & Phishing-Resistant MFA
+- Lab 19 — Service Principals and App Registrations
+- Lab 20 — Managed Identities
+- Lab 21 — Workload Identity Federation
+- Lab 22 — AI Agent Identity (The Core Lab for the Target Role)
+- Lab 27 — AWS IAM + Azure Identity Federation
+- Lab 31 — CyberArk Concepts and Integration with Entra
+- Lab 32 — Delinea Secret Server
+- Lab 35 — Sentinel Identity Workbook
+- Lab 39 — Okta Workforce Identity Foundations
+- Lab 45 — SailPoint IdentityIQ Concepts
 
-### Phase 7 — Detection & Audit (Labs 35–38)
-Sentinel, Purview, Identity Risk Signals, Audit Correlation
-
-### Phase 8 — Okta (Labs 39–44)
-Workforce Identity, SCIM, Okta Lifecycle, SAML, OIDC
-
-### Phase 9 — SailPoint (Labs 45–50)
-IIQ concepts, Identity Cube, Certification Campaigns, Role Mining
+> **Source integrity note:** The roadmap preserves the original 50-lab phase ranges. This file only contains detailed write-ups for the labs listed above; the remaining numbered labs remain planned curriculum slots rather than being invented or silently filled in.
 
 ---
+
+
+# Phase 1 — Human Identity Foundation (Labs 01–08)
+
 ### Phase 1 — Human Identity Foundation (Labs 01–08)
 
 IPL Entra ID & Identity Administration Labs
@@ -134,22 +172,6 @@ Configure — the actual Entra/AD configuration
 Verify — PowerShell and Graph commands to confirm it worked
 Extend — optional deeper challenge if you want to go further
 No artificial break-and-fix is injected. You will hit real errors naturally — that is enough.
-
-Curriculum Map
-Phase 1 — Foundation (Labs 01–08)
-Build the identity infrastructure from scratch
-
-Phase 2 — Governance & IGA with Entra (Labs 09–16)
-Use Entra as your IGA platform — access packages, reviews, PIM, lifecycle
-
-Phase 3 — Authentication & Zero Trust (Labs 17–22)
-MFA, passwordless, Conditional Access, SSPR
-
-Phase 4 — Workload & AI Identities (Labs 23–28)
-App registrations, Managed Identities, Workload Federation, AI service identities
-
-Phase 5 — Monitoring & Operations (Labs 29–32)
-Audit logs, Secure Score, Identity Protection, runbooks
 
 PHASE 1 — FOUNDATION
 Lab 01 — Bulk User Provisioning & Group-Based Licensing
@@ -1119,6 +1141,11 @@ Add each team when the lab scenario calls for it — IPL-All-Players dynamic gro
 
 Last updated: IPL 2026 Season · <Your domain> Solutions Entra Tenant · 1x AAD P2 License
 
+---
+
+
+# Phase 2 — Identity Governance & Administration (Labs 09–13)
+
 ### Phase 2 - Identity Governance (Labs 09-13)
 Identity Governance & Administration (IGA) — Complete Concept Study Guide
 Theory + Visual Diagrams + Entra ID Mapping + Lab Context
@@ -2040,6 +2067,7 @@ IGA is the discipline. Entra, SailPoint, and Okta are the tools.
 Master the discipline and you can work in any tool.
 This guide gives you the discipline.
 
+---
 
 # PHASE 3 — AUTHENTICATION & ZERO TRUST
 
@@ -3878,7 +3906,13 @@ $identity.links | ForEach-Object {
 
 ---
 
-## Weekend study plan
+
+---
+
+# Appendices
+
+
+## Appendix A — Weekend Study Plan
 
 ```mermaid
 graph LR
@@ -3897,7 +3931,8 @@ graph LR
 
 ---
 
-## Role readiness checklist
+
+## Appendix B — Role Readiness Checklist
 
 **Traditional IAM (already built in Phase 1-2):**
 - [x] Entra ID user and group management
@@ -3953,4 +3988,11 @@ graph LR
 *This curriculum builds Traditional IAM → Workload Identity → AI Identity → Multi-cloud → PAM → Detection → Okta → SailPoint.*  
 *Every lab is grounded in a real enterprise problem.*  
 *Phase 4 Lab 22 (AI Agent Identity) is the core differentiator for the target role.*
+
+
+## Appendix C — Source Organization Notes
+
+- The original duplicated Phase 1/Phase 2 headings were consolidated into the canonical roadmap above.
+- The original Phase 1, Phase 2, and Phase 3–9 detailed material remains in curriculum order.
+- Planned lab ranges are preserved even where a detailed lab write-up is not present in the source.
 
