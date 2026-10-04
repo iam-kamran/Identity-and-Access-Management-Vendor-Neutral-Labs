@@ -59,6 +59,7 @@ Prevention  — how to avoid the problem entirely
 4. [AU-scoped roles — not all built-in roles support AU scoping](#4-au-scoped-roles-not-all-support-au-scoping)
 
 **User & Group Management**
+
 5. [Bulk user creation — UsageLocation omission causes silent licensing failures](#5-bulk-user-creation-usagelocation-silent-failure)
 6. [Group-based licensing — blocked on dynamic groups](#6-group-based-licensing-blocked-on-dynamic-groups)
 7. [Dynamic group rule — cannot test against all users before saving](#7-dynamic-group-rule-cannot-test-against-all-users)
@@ -66,6 +67,7 @@ Prevention  — how to avoid the problem entirely
 9. [Guest userType — cannot be changed via portal](#9-guest-usertype-cannot-be-changed-via-portal)
 
 **Hybrid Identity & Cloud Sync**
+
 10. [onPremisesImmutableId — read-only in portal, settable via API](#10-onpremisesimmutableid-read-only-in-portal)
 11. [Soft-match migration — no portal workflow exists](#11-soft-match-migration-no-portal-workflow)
 12. [Cloud Sync — no full resync option in portal](#12-cloud-sync-no-full-resync-option)
@@ -74,24 +76,29 @@ Prevention  — how to avoid the problem entirely
 15. [Password reset for synced users — writeback dependency invisible](#15-password-reset-synced-users-writeback-dependency)
 
 **Privileged Identity Management**
+
 16. [PIM AU-scoped eligible assignments — expiry not enforced consistently](#16-pim-au-scoped-eligible-assignments)
 
 **Conditional Access**
+
 17. [CA policies — cannot be cloned via portal](#17-ca-policies-cannot-be-cloned)
 18. [Named locations — no bulk IP range import via portal](#18-named-locations-no-bulk-import)
 
 **Identity Governance**
+
 19. [Lifecycle Workflows — cannot trigger per-user manually from portal](#19-lifecycle-workflows-cannot-trigger-per-user)
 20. [Access Reviews — reviewer decision audit trail not fully visible](#20-access-reviews-audit-trail-not-fully-visible)
 21. [Entitlement Management — no bulk approval of access requests](#21-entitlement-management-no-bulk-approval)
 
 **Applications & Workload Identity**
+
 22. [Managed Identity — Graph API permissions cannot be assigned via portal](#22-managed-identity-graph-permissions-via-portal)
 23. [Service Principal — full permission view not available in portal](#23-service-principal-full-permission-view)
 24. [App registration — federated identity credentials have limited portal config](#24-federated-identity-credentials-limited-portal-config)
 25. [SCIM provisioning — no clean pause and resume in portal](#25-scim-provisioning-no-clean-pause-resume)
 
 **Monitoring & Compliance**
+
 26. [Audit logs — 30-day retention cannot be extended via portal](#26-audit-logs-retention-cannot-be-extended)
 27. [Cross-tenant sync — target attribute mapping restricted in portal](#27-cross-tenant-sync-attribute-mapping-restricted)
 28. [PIM for groups — synced and dynamic groups cannot be PIM-enabled](#28-pim-for-groups--synced-and-dynamic-groups-cannot-be-pim-enabled)
